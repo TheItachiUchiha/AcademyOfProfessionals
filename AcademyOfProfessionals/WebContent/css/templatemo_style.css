@@ -124,8 +124,8 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 	clear: both;
 	position: relative;
 	width: 940px;
-	height: 300px;
-	padding: 70px 10px 0;
+	height: 400px;
+	padding: 0px 0px 0;
 	background: url(../images/templatemo_middle.jpg) no-repeat center
 }
 
@@ -134,7 +134,7 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 #mid_left { float: left; margin-left: 30px; margin-top: 30px; width: 480px; }
 #mid_left p { font-size: 18px; color: #c9c5cd; margin-bottom: 20px; }
 #mid_left .viewall { clear: both; float: right; display: block; margin-top: 20px; width: 136px; height: 50px; background: url(../images/templatemo_viewall_btn.png) no-repeat }
-#templatemo_middle img { float: left; margin-left: 60px }
+#templatemo_middle img { float: left; margin-left: 180px ; margin-top :50px;}
 
 #templatemo_main {
 	clear: both;

@@ -2,7 +2,7 @@
     width: 600px;
     height: 200px;
     padding: 15px 1px 47px 1px;
-    background-image: url('../images/pc_bg.png');
+   /* background-image: url('../images/pc_bg.png');*/
     margin: 0px auto;
 }
 
@@ -53,14 +53,15 @@
 
 .pc_item .desc {
     position: absolute;
-    width: 450px;
+    width: 590px;
     padding: 10px;
     height: 180px;
     line-height: 1.8em;
     right: 0px;
-    background-image: url(../images/slide_fade.png);
+   /*  background-image: url(../images/slide_fade.png);*/
 }
 
 .pc_item .desc h1 {
+	font-size: 30px;
     color: #DE8F26;    
 }
