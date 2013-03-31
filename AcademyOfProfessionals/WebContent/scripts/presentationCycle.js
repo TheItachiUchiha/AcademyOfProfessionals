@@ -18,9 +18,9 @@ var presentationCycle = {
     //progressbar options
     barHeight: 10,
     barDisplacement: 5,
-    barImgLeft: "images/testcircles.gif",
-    barImgRight: "images/testcircles.gif",
-    barImgCenter: "images/testcircles.gif",
+    barImgLeft: "images/testcirclesblue.gif",
+    barImgRight: "images/testcirclesblue.gif",
+    barImgCenter: "images/testcirclesblue.gif",
    /* barImgBarEmpty: "images/pc_bar_empty.gif",
     barImgBarFull: "images/pc_bar_full.gif",*/
     
