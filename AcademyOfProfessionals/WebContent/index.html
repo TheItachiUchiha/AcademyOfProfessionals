@@ -3,12 +3,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Academy of professionals</title>
-<meta name="keywords" content="free templates, website templates, CSS, HTML" />
-<meta name="description" content="Design Work is a Free HTML CSS Template by templatemo.com" />
+<meta name="keywords" content="Academy,CA,Education" />
+<meta name="description" content="Academy,CA,Education" />
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
- 
 <link rel="stylesheet" type="text/css" href="css/slider_styles.css" />
 
+ <!-- Modal -->
+ 
+<link type='text/css' href='css/demo.css' rel='stylesheet' media='screen' />
+<link type='text/css' href='css/basic.css' rel='stylesheet' media='screen' />
+<!--  Modal ends here -->
 
 <script language="javascript" type="text/javascript" src="scripts/mootools-1.2.1-core.js"></script>
 <script language="javascript" type="text/javascript" src="scripts/mootools-1.2-more.js"></script>
@@ -48,10 +52,20 @@
 
 <body>
 
+	
+		
+		
+		<!-- modal content -->
+		
+	
+
 
 <div id="templatemo_body_wrapper">
-<div id="div_login">
-</div>
+<div id="login_modal_show">
+		<div id='basic-modal'>
+			 <a href='#' class='basic'>Login</a>
+		</div>
+    	</div>
 	<div id="templatemo_wrapper">
     	
         <div id="templatemo_header">
@@ -64,6 +78,7 @@
                   <li><a href="contact.html" class="last">Placements</a></li>
                 </ul>
             </div> <!-- end of templatemo_menu -->
+            
         </div><!-- end of header -->
         
         <div id="templatemo_middle">
@@ -266,6 +281,47 @@
         <div class="cleaner"></div>
     </div>
 </div>
+<div id="basic-modal-content">
+			<h3 align="center">Login</h3>
+			<!--  
+			<p>For this demo, SimpleModal is using this "hidden" data for its content. You can also populate the modal dialog with an AJAX response, standard HTML or DOM element(s).</p>
+			<p>Examples:</p>
+			<p><code>$('#basicModalContent').modal(); // jQuery object - this demo</code></p>
+			<p><code>$.modal(document.getElementById('basicModalContent')); // DOM</code></p>
+			<p><code>$.modal('&lt;p&gt;&lt;b&gt;HTML&lt;/b&gt; elements&lt;/p&gt;'); // HTML</code></p>
+			<p><code>$('&lt;div&gt;&lt;/div&gt;').load('page.html').modal(); // AJAX</code></p>
+		
+			<p><a href='http://www.ericmmartin.com/projects/simplemodal/'>More details...</a></p>
+			-->
+			
+			<form action="demo_form.asp">
+			
+  			<table border="0" align="center" cellspacing="0">
+				<tr>
+				<th align="justify">Enter User Id : </th>
+				<td><input type="text" name="lid"/></td>
+				</tr>
+				<tr>
+				<th>Enter Password :</th>
+				<td><input type="password" name="password"/></td>
+				</tr>
+				
+				</table>
+				 <br>
+				  <br>
+				  <div align="center">
+				<input type="submit" value="Submit"/>&nbsp; <input type="reset" value="Reset"/>
+				</div>
+</form>
+		</div>
 
+		<!-- preload the images -->
+		<div style='display:none'>
+			<img src='images/x1.png' alt='' />
+		</div>
+		
+
+<script type='text/javascript' src='scripts/jquery.simplemodal.js'></script>
+<script type='text/javascript' src='scripts/basic.js'></script>
 </body>
 </html>
