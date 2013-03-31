@@ -8,7 +8,7 @@ var presentationCycle = {
      */
     
     //slide options
-    slideTimeout: 8000,
+    slideTimeout: 4000,
     containerId: "presentation_container",
     
     //cycle options
@@ -16,13 +16,13 @@ var presentationCycle = {
     cycleSpeed: 600,  
     
     //progressbar options
-    barHeight: 14,
-    barDisplacement: 20,
-    barImgLeft: "images/pc_item_left.gif",
-    barImgRight: "images/pc_item_right.gif",
-    barImgCenter: "images/pc_item_center.gif",
-    barImgBarEmpty: "images/pc_bar_empty.gif",
-    barImgBarFull: "images/pc_bar_full.gif",
+    barHeight: 10,
+    barDisplacement: 5,
+    barImgLeft: "images/testcircles.gif",
+    barImgRight: "images/testcircles.gif",
+    barImgCenter: "images/testcircles.gif",
+   /* barImgBarEmpty: "images/pc_bar_empty.gif",
+    barImgBarFull: "images/pc_bar_full.gif",*/
     
     //variables this script need
     itemCount: 0,
@@ -42,7 +42,7 @@ var presentationCycle = {
         
         var subtrackSpace = (presentationCycle.itemCount * presentationCycle.barHeight);
         var totalWidth = $('#' + presentationCycle.containerId).innerWidth() - presentationCycle.barDisplacement;
-        var fillWidth = Math.floor((totalWidth - subtrackSpace) / (presentationCycle.itemCount - 1));
+        var fillWidth = Math.floor(((totalWidth - subtrackSpace) / (presentationCycle.itemCount - 1))/8);
         presentationCycle.itemBarWidth = fillWidth;
         
         for (var i = 0; i < presentationCycle.itemCount; i++) {
