@@ -59,7 +59,12 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 .tmo_list li a { color: #5f5d5d; font-weight: normal; text-decoration: none }
 .tmo_list li a:hover { text-decoration: underline }
 
+#testImage{
+	height:10px;
+}
 #templatemo_body_wrapper {
+	position:relative;
+	float:left;
 	width: 100%;
 	background: url(../images/templatemo_top.png) no-repeat top center
 }
@@ -186,9 +191,10 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 
 
 #login_modal_show{
-	position: absolute; 
-	top: 10px;
-	left: 1250px; 
+	position: relative; 
+	float:right;
+	top:10px;
+	left: -20px;
 	color: #c9c5cd;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 13px; 
